@@ -5,7 +5,8 @@
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   background: #2a2c2f;
   max-width: 100%;
-  margin: 0 auto;
+  min-width: 1280px;
+  margin: auto;
   color: #fff;
 }
 
@@ -82,9 +83,9 @@
 }
 
 .lead__image {
-  display: block;
-  max-width: 100%;
-  max-height: 615px;
+  width: 100%;
+  min-height: 100%;
+  max-height: 100%;
   object-fit: cover;
 }
 
@@ -102,7 +103,7 @@
 /***** INTRO ******/
 
 .intro {
-  width: 987px;
+  min-width: 987px;
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -150,4 +151,31 @@
 
 .intro__list-item_detail {
   font-weight: bold;
+}
+
+/* Gallery */
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 16px;
+  padding: 0 48px;
+  margin: 92px 0 92px;
+  min-width: 1184px;
+  align-self: center;
+}
+
+.photo-grid__item {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.photo-grid__image {
+  width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: cover;
 }
