@@ -62,10 +62,6 @@
   border-bottom: 1px solid #fff;
 }
 
-.logo {
-  width: 100%;
-}
-
 /***** LEAD ******/
 
 .lead {
@@ -79,7 +75,7 @@
 .lead__title {
   text-align: center;
   max-width: 720px;
-  font-weight: 800;
+  font-weight: 900;
   font-style: normal;
   font-size: 96px;
   line-height: 1.04;
@@ -199,12 +195,12 @@
 
 /******* PLACES *********/
 
-.places__container {
+.places {
   max-width: 984px;
   margin: 0 auto;
 }
 
-.places {
+.places__container {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -289,6 +285,7 @@
 
 .cover {
   position: relative;
+  box-sizing: border-box;
   height: 740px;
   align-self: center;
   margin: 92px 0 92px;
@@ -613,7 +610,6 @@
 
   .place {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(1fr, 4);
     row-gap: 30px;
   }
 
