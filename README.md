@@ -10,11 +10,11 @@
 
 **Intro**
 
-A fully responsive beautiful website created with as part of a course at [Practicum100](https://practicum.yandex.com/web/){:target="\_blank"}
+A fully responsive beautiful website created with as part of a course at [Practicum100](https://practicum.yandex.com/web/)
 
 **Technolgoies used**
 
 - Html5
 - CSS3
 
-[A link to my website](https://sharonjseg.github.io/web_project_3/){:target="\_blank"}
+[A link to my website](https://sharonjseg.github.io/web_project_3/)
