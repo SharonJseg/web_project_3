@@ -1,0 +1,29 @@
+.cover {
+  position: relative;
+  box-sizing: border-box;
+  height: 740px;
+  align-self: center;
+  margin: 92px 0 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-height: 640px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover {
+    max-height: 480px;
+    margin: 89px 0 88px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover {
+    max-height: 200px;
+    margin: 64px 0;
+  }
+}

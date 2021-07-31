@@ -1,0 +1,11 @@
+.place__link {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 1px;
+  transition: opacity 0.3s ease-out;
+}
+
+.place__link:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,23 @@
+.cover__background {
+  display: block;
+  position: absolute;
+  max-width: 1184px;
+  z-index: 0;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover__background {
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover__background {
+    max-width: 320px;
+  }
+}

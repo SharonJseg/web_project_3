@@ -1,0 +1,6 @@
+.places__container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 984px;
+}
