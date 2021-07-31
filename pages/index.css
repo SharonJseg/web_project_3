@@ -333,3 +333,40 @@
   margin: 0;
   z-index: 2;
 }
+
+/********FOOTER ******/
+
+.footer {
+  padding-bottom: 24px;
+  box-sizing: border-box;
+  max-width: 1184px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.12;
+  transition: opacity 0.3s ease-out;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+}
+
+.footer__link:not(:last-child) {
+  margin-right: 18px;
+}
+
+.footer__copyright {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14;
+}
