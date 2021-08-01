@@ -3,10 +3,15 @@
   grid-row: 2;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 605px) {
   .place__paragraphs {
     grid-row: 4;
     grid-column: 1;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraphs {
     padding: 0 16px;
   }
 }
