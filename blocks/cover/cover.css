@@ -1,31 +1,31 @@
 .cover {
-  position: relative;
-  box-sizing: border-box;
   height: 740px;
-  align-self: center;
-  margin: 92px 0 92px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
+  max-width: 1184px;
+  margin: 92px 48px;
+  background-image: url(../../images/route-66.jpg);
+  background-position: center;
+  background-size: cover;
   color: #fff;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    max-height: 640px;
+    height: 640px;
+    width: 100%;
+    margin: 92px 0;
   }
 }
+
 @media screen and (max-width: 768px) {
   .cover {
-    max-height: 480px;
-    margin: 89px 0 88px;
+    height: 480px;
+    margin: 88px 0;
   }
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 768px) {
   .cover {
-    max-height: 200px;
+    height: 320px;
     margin: 64px 0;
   }
 }

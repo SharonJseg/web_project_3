@@ -4,10 +4,15 @@
   align-self: end;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 605px) {
   .place__website {
     grid-column: 1;
     grid-row: 2;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
     padding: 0 16px;
   }
 }

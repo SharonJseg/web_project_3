@@ -1,6 +1,7 @@
 .place {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
   grid-gap: 40px 40px;
 }
 
@@ -13,11 +14,20 @@
     grid-gap: 48px 32px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .place {
     grid-gap: 48px 28px;
   }
 }
+
+@media screen and (max-width: 605px) {
+  .place {
+    grid-template-columns: 1fr;
+    row-gap: 33px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place {
     grid-template-columns: 1fr;

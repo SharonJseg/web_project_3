@@ -2,22 +2,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 984px;
   align-self: center;
+  max-width: 984px;
+  margin: 0 148px;
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
-    max-width: 928px;
+    margin: 0 48px;
   }
 }
 @media screen and (max-width: 768px) {
   .lead {
-    max-width: 768px;
+    margin: 0;
   }
 }
 @media screen and (max-width: 320px) {
   .lead {
-    max-width: 320px;
+    margin: 0;
   }
 }
