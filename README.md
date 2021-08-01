@@ -10,7 +10,7 @@
 
 **Intro**
 
-A fully responsive beautiful website created with as part of a course at [Practicum100](https://practicum.yandex.com/web/)
+A responsive website created with as part of a course at [Practicum100](https://practicum.yandex.com/web/)
 
 **Technolgoies used**
 
