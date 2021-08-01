@@ -6,6 +6,8 @@
   line-height: 1.06;
   margin: 0 0 32px;
   z-index: 2;
+  color: #fff;
+  text-align: center;
 }
 
 @media screen and (max-width: 320px) {
