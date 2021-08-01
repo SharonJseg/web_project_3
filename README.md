@@ -17,4 +17,4 @@ A responsive website created with as part of a course at [Practicum100](https://
 - Html5
 - CSS3
 
-[A link to my website](https://sharonjseg.github.io/web_project_3/)
+[A link to my website](https://sharonjseg.github.io/web_project_3/index.html)
